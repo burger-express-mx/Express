@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.9)),
+        url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+}
+
+/* Contenedor principal */
+.contenedor{
+    text-align:center;
+    padding:50px 20px;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+/* Logo */
+.logo{
+    width:140px;
+    margin:auto;
+    margin-bottom:20px;
+    filter: drop-shadow(0 0 10px rgba(241,196,15,0.6));
+}
+
+/* Título */
+h1{
+    font-size:60px;
+    color:#f1c40f;
+    letter-spacing:3px;
+    margin-bottom:10px;
+}
+
+/* Línea decorativa */
+.linea{
+    width:150px;
+    height:4px;
+    background:#f1c40f;
+    margin:15px auto 30px auto;
+    border-radius:5px;
+}
+
+/* Frase */
+.frase{
+    font-size:22px;
+    max-width:800px;
+    margin:auto;
+    line-height:1.7;
+    margin-bottom:40px;
+    opacity:0.9;
+}
+
+/* ===== VIDEO ===== */
+.seccion-video{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 30px rgba(0,0,0,0.8);
+}
+
+.seccion-video video{
+    width:100%;
+    display:block;
+    border-radius:20px;
+}
+
+/* Navegación */
+.menu{
+    margin-top:30px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    margin:15px;
+    padding:12px 28px;
+    border:2px solid #f1c40f;
+    border-radius:30px;
+    transition:0.3s;
+    display:inline-block;
+}
+
+.menu a:hover{
+    background:#f1c40f;
+    color:black;
+    transform:scale(1.1);
+    box-shadow:0 0 15px rgba(241,196,15,0.7);
+}
+
+/* Footer */
+footer{
+    margin-top:60px;
+    font-size:14px;
+    opacity:0.8;
+}

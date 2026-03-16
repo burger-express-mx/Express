@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Burguer Express - Menú</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', sans-serif;
+    background:
+        linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+        url("fondo.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.logo{
+    width:130px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:55px;
+    color:#f1c40f;
+}
+
+.linea{
+    width:150px;
+    height:4px;
+    background:#f1c40f;
+    margin:20px auto;
+    border-radius:5px;
+}
+
+.menu-nav{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.menu-nav a{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+    padding:12px 30px;
+    border:2px solid #f1c40f;
+    border-radius:30px;
+    transition:0.3s;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.menu-nav a:hover{
+    background:#f1c40f;
+    color:black;
+    transform:scale(1.1);
+}
+
+.contenedor{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.seccion{
+    margin-bottom:60px;
+}
+
+.seccion h2{
+    color:#f1c40f;
+    margin-bottom:25px;
+    border-bottom:2px solid #f1c40f;
+    padding-bottom:12px;
+    font-size:30px;
+}
+
+.producto{
+    background:rgba(255,255,255,0.08);
+    padding:15px;
+    margin:20px 0;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.producto:hover{
+    background:rgba(241,196,15,0.15);
+    transform:scale(1.03);
+}
+
+.producto img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-right:15px;
+}
+
+.info{
+    flex:1;
+    font-size:20px;
+}
+
+.precio{
+    font-weight:bold;
+    font-size:22px;
+    color:#f1c40f;
+}
+
+footer{
+    text-align:center;
+    margin:50px 0;
+    font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="/storage/emulated/0/erickgb/Imagen/logo.jpg" class="logo">
+<h1>Menú</h1>
+<div class="linea"></div>
+</header>
+
+<div class="menu-nav">
+<a href="index.html">Inicio</a>
+<a href="menú.html">Menú</a>
+<a href="promocion.html">Promoción</a>
+<a href="contacto.html">Contacto</a>
+</div>
+
+<div class="contenedor">
+
+<div class="seccion">
+<h2>🍔 Hamburguesas</h2>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Clasica.jpg">
+<div class="info">Clásica</div>
+<div class="precio">$35</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Arrachera.jpg">
+<div class="info">Arrachera</div>
+<div class="precio">$65</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Hawaiana.jpg">
+<div class="info">Hawaiana</div>
+<div class="precio">$75</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Sirlon.jpg">
+<div class="info">Sirloin</div>
+<div class="precio">$70</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/DobleArrachera.jpg">
+<div class="info">Doble Arrachera</div>
+<div class="precio">$100</div>
+</div>
+</div>
+
+<div class="seccion">
+<h2>🌭 Hot Dogs</h2>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/HotdogClasico.jpg">
+<div class="info">Clásico</div>
+<div class="precio">$30</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/HotdogEspecial.jpg">
+<div class="info">Especial</div>
+<div class="precio">$45</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/HotdogHawaiano.jpg">
+<div class="info">Hawaiano</div>
+<div class="precio">$45</div>
+</div>
+</div>
+
+<div class="seccion">
+<h2>🍟 Snacks y Extras</h2>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/PapasFrancesa.jpg">
+<div class="info">Papas a la francesa</div>
+<div class="precio">$45</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/PapasGajos.jpg">
+<div class="info">Papas gajos</div>
+<div class="precio">$50</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Salchipapas.jpg">
+<div class="info">Salchipapas</div>
+<div class="precio">$50</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Nuggets.jpg">
+<div class="info">Nuggets</div>
+<div class="precio">$50</div>
+</div>
+</div>
+
+<div class="seccion">
+<h2>🥤 Refrescos (600 ML)</h2>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/CocaCola.jpg">
+<div class="info">Coca-Cola</div>
+<div class="precio">$25</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Fanta.jpg">
+<div class="info">Fanta</div>
+<div class="precio">$25</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Sprite.jpg">
+<div class="info">Sprite</div>
+<div class="precio">$25</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Mundet.jpg">
+<div class="info">Mundet</div>
+<div class="precio">$25</div>
+</div>
+
+<div class="producto">
+<img src="/storage/emulated/0/erickgb/Imagen/Fresca.jpg">
+<div class="info">Fresca</div>
+<div class="precio">$25</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Burguer Express | Sabor que se disfruta
+</footer>
+
+</body>
+</html>
